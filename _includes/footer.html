@@ -1,0 +1,32 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h4><strong>{{ site.owner }}</strong>
+        </h4>
+        <p>
+          {% for address in site.address %}
+          {{ address.line }}<br>
+          {% endfor %}
+        </p>
+        <ul class="list-unstyled">
+          <li><i class="fa fa-phone fa-fw"></i> (709) 763-6294</li>
+          <li><i class="far fa-envelope fa-fw"></i>  <a href="mailto:{{ jess.wyatt@gmail.com }}">jess.wyatt@gmail.com</a>
+          </li>
+        </ul>
+        <br>
+        <ul class="list-inline">
+          
+          <li>
+            <a href="https://www.linkedin.com/in/jessica-wyatt-b86b9377/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/JW709" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+          </li>
+        </ul>
+        <hr class="small">
+        <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
