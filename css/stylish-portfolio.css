@@ -186,60 +186,7 @@ h2, .fa-stack {
 
 /* Callout */
 
-.col {
-    display: inline-block;
-    position: relative;
-    width: 30%;
-    margin:4% 0 5% 3%;
-    padding:0;
-    background-color: transparent;
-     border-top: none;
-}
-   .spacer {
-     position: relative;
-     padding-top: 100%;
-    }
-   /* &:nth-child(3n+1) {
-        margin-left: 1%;
-        }
-   
- } */
- .circle {
-     position: absolute;
-     top: 0;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     background-color: powderblue;
-     color: #333;
-     border-radius: 50%;
-     box-sizing: border-box;
-     text-align: center;
-     display: block;
-   padding: 5px;
- }
-     :before {
-       content: '';
-       display: inline-block;
-       height: 100%;
-       vertical-align: middle;
-       margin-right: -2%;
-      }
-       /* /* border: 5px solid darken(powderblue, 5%);
-       -webkit-transition: all 1s ease-out;
-       -moz-transition: all 1s ease-out;
-       -o-transition: all 1s ease-out;
-       transition: all 1s ease-out;
-      & */
-      :hover { 
-        background-color: maroon;
-        border: 5px solid darken(maroon, 10%);
-        color: #fff;
-        }
-  
-
-
-.skills-list {
+.soft-skills {
     display: block;
     width: 100%;
     height: 400px;
@@ -252,7 +199,52 @@ h2, .fa-stack {
     -o-background-size: cover;
 }
 
+.col {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin:4% 0 5% 3%;
+    padding:0;
+    background-color: transparent;
+     border-top: none;
+}
+    .spacer {
+     position: relative;
+     padding-top: 100%;
+    }
 
+    .circle {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: powderblue;
+        color: #333;
+        border-radius: 50%;
+        box-sizing: border-box;
+        text-align: center;
+        display: block;
+      padding: 5px;
+    }
+      .circle :before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -2%;
+       }
+        /* border: 5px solid darken(powderblue, 5%);
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out; */
+       .circle :hover {
+         background-color: maroon;
+         border: 5px solid darken(maroon, 10%);
+         color: #fff;
+         }
+   
 
 /* Portfolio */
 
