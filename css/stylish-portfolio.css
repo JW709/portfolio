@@ -194,15 +194,16 @@ h2, .fa-stack {
     padding:0;
     background-color: transparent;
      border-top: none;
+}
    .spacer {
      position: relative;
      padding-top: 100%;
     }
-   &:nth-child(3n+1) {
+   /* &:nth-child(3n+1) {
         margin-left: 1%;
         }
    
- }
+ } */
  .circle {
      position: absolute;
      top: 0;
@@ -216,24 +217,26 @@ h2, .fa-stack {
      text-align: center;
      display: block;
    padding: 5px;
-     &:before {
+ }
+     :before {
        content: '';
        display: inline-block;
        height: 100%;
        vertical-align: middle;
        margin-right: -2%;
       }
-       border: 5px solid darken(powderblue, 5%);
+       /* /* border: 5px solid darken(powderblue, 5%);
        -webkit-transition: all 1s ease-out;
        -moz-transition: all 1s ease-out;
        -o-transition: all 1s ease-out;
        transition: all 1s ease-out;
-      &:hover {
+      & */
+      :hover { 
         background-color: maroon;
         border: 5px solid darken(maroon, 10%);
         color: #fff;
         }
-  }
+  
 
 
 .skills-list {
