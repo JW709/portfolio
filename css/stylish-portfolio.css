@@ -227,13 +227,13 @@ h2, .fa-stack {
         display: block;
       padding: 5px;
     }
-      .circle :before {
+      /* .circle :before {
         content: '';
         display: inline-block;
         height: 100%;
         vertical-align: middle;
         margin-right: -2%;
-       }
+       } */
         /* border: 5px solid darken(powderblue, 5%);
         -webkit-transition: all 1s ease-out;
         -moz-transition: all 1s ease-out;
