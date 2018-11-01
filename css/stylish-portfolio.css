@@ -199,35 +199,6 @@ h2, .fa-stack {
     -o-background-size: cover;
 }
 
-.col {
-    display: inline-block;
-    position: relative;
-    width: 30%;
-    margin:4% 0 5% 3%;
-    padding:0;
-    background-color: transparent;
-     border-top: none;
-}
-    .spacer {
-     position: relative;
-     padding-top: 100%;
-    }
-
-    .circle {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: powderblue;
-        color: #333;
-        border-radius: 50%;
-        box-sizing: border-box;
-        text-align: center;
-        display: block;
-      padding: 5px;
-    }
-  
 
 /* Portfolio */
 
