@@ -199,6 +199,52 @@ h2, .fa-stack {
     -o-background-size: cover;
 }
 
+.col {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    margin:4% 0 5% 3%;
+    padding:0;
+    background-color: transparent;
+     border-top: none;
+}
+   .spacer {
+     position: relative;
+     padding-top: 100%;
+    }
+   .spacer :nth-child(3n+1) {
+        margin-left: 1%;
+        }
+   
+ .circle {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: powderblue;
+     color: #333;
+     border-radius: 50%;
+     box-sizing: border-box;
+     text-align: center;
+     display: block;
+   padding: 5px;
+ }
+     .circle :before {
+       content: '';
+       display: inline-block;
+       height: 100%;
+       vertical-align: middle;
+       margin-right: -2%;
+      }
+     
+      .circle :hover {
+        background-color: maroon;
+        border: 5px solid darken(maroon, 10%);
+        color: #fff;
+        }
+  
+
 
 /* Portfolio */
 
